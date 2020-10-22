@@ -97,13 +97,17 @@ footer{
 
 /* Header styles */
 header{
-
+padding: 15px 0;
+}
+header header-divider{
+  width: 100%
 }
 header.content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row wrap;
+  width: 90%;
 }
 
 header nav{
@@ -111,6 +115,8 @@ header nav{
   justify-content: space-between;
   align-items: center;
   flex-direction: row wrap;
+  width:60%;
+ 
 }
 header nav ul{
   display: flex;
@@ -118,6 +124,8 @@ header nav ul{
   align-content: center;
   flex-direction: row;
   list-style: none;
+  width: 50%;
+  padding:15px;
 }
 /* Mobile Styles */
 
@@ -127,15 +135,19 @@ header nav ul{
   align-items: center;
   flex-direction: row wrap;
 
+
 }
 main .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 15px;
 }
-
-aside{
+main .hero-area h1{
+  padding: 20px 0;
+}
+aside .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,12 +159,12 @@ aside{
   align-items: center;
   flex-direction: column;
 }
+
 .features{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row wrap;
-
 }
 .features features-items{
   display: flex;
@@ -166,11 +178,15 @@ aside{
   flex-direction: column;
   flex-direction: row wrap;
 }
-article {
+.reviews h3{
+  width: 50%;
+}
+.features article {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 90%;
 }
 
 .mission{
@@ -191,6 +207,7 @@ faq .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-direction: row wrap;
+  width: 90%;
 }
 
 /*---Footer----*/
@@ -199,7 +216,8 @@ footer .content-wrapper{
 display: flex;
 justify-content: center;
 align-items: center;
-
+width: 55%;
+margin: 50px 0;
 }
 .footer-content{
   display: flex;
@@ -213,6 +231,7 @@ align-items: center;
   align-items: center;
   flex-direction: column;
   flex-direction: row wrap;
+  padding:15px 0;
 }
 
  footer .social{
@@ -227,8 +246,10 @@ footer .social-icons{
   align-items: center;
 
 }
-.copyright{
-
+footer .copyright p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
